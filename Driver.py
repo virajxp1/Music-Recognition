@@ -38,7 +38,7 @@ def buildData():
 
 
 def getSample():
-    dir = os.path.join(os.getcwd(), "samples")
+    dir = os.path.join(os.getcwd(), "temp")
     sampleFingerprint = []
     sampleName = []
     for file in os.listdir(dir):
